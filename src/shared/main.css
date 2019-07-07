@@ -1,163 +1,134 @@
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  background: rgb(250, 250, 250);
-  color: #333333;
-}
 
-button {
-  cursor: pointer;
-}
-
-.hidden {
-  display: none;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.header {
-  background: rgba(0, 0, 0, 0.86);
-  height: 45px;
-  line-height: 45px;
-  font-size: 14px;
-  text-align: center;
-  color: #ccc;
-}
-
-.display-none {
-  display: none;
-}
-
-.icon-stackoverflow {
-  height: 30px;
-  position: relative;
-  top: 5px;
-}
-
-.se-white {
-  color: white;
-  font-size: 18px;
-  text-shadow: 0 0 1px;
-}
-
-.se-blue {
-  color: #2f73eb;
-  margin-left: -4px;
-  font-weight: bold;
-  font-size: 18px;
-  text-shadow: 0 0 1px;
-}
-
-.se-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  min-height: 150px;
-}
-
-.default-template {
-  line-height: 130px;
-  text-align: center;
-  margin-left: -40px;
-}
-
-.category-area {
-  margin-bottom: 3rem;
-}
-
-.category-area .default-template {
-  margin: 0;
-  background: #eee;
-}
-
-.se-list li {
-  padding: 10px;
-  overflow: auto;
-  position: relative;
-}
-
-.se-list li:nth-child(even) {
-  background-color: #eee;
-  border-top: 1px solid #bbb;
-  border-bottom: 1px solid #ccc;
-}
-
-.se-list li:nth-child(odd) {
-  background-color: white;
-  border-bottom: 1px solid #ddd;
-}
-
-.lower-row img {
-  float: left;
-  margin-right: 0.5rem;
-}
-
-.user-notification-list li {
-  overflow: auto;
-}
-
-.avatar-container {
-  height: 40px;
-  width: 40px;
-}
-
-.avatar-container img {
-  height: 100%;
-  width: 100%;
-}
-
-.link {
-  color: rgb(0, 120, 231);
-  text-decoration: none;
-}
-
-.username {
-  color: rgb(0, 0, 238);
-}
-
-.np-page {
-  width: 700px;
-  margin: 0px auto;
-  padding-top:1rem;
-}
-
-.notification-page-header {
-  margin: 20px 0px;
-}
-
-.pure-button-error {
-  background: rgba(250, 20, 20, 0.8);
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-.pure-button-normal {
-  background: black;
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-.se-list li:hover {
-  background-color: rgba(100,100,250,0.2);
-}
-
-.se-list li.se-selected {
-  background-color: rgba(47, 115, 235, 0.5);
-}
+  body: {
+    fontFamily: \Helvetica Neue\, Helvetica, Arial, sans-serif,
+    fontSize: 14px,
+    lineHeight: 20px,
+    background: rgb(250, 250, 250),
+    color: #333333
+  },
+  button: {
+    cursor: pointer
+  },
+  hidden: {
+    display: none
+  },
+  left: {
+    float: left
+  },
+  right: {
+    float: right
+  },
+  align_right: {
+    textAlign: right
+  },
+  bold: {
+    fontWeight: bold
+  },
+  header: {
+    background: rgba(0, 0, 0, 0.86),
+    height: 45px,
+    lineHeight: 45px,
+    fontSize: 14px,
+    textAlign: center,
+    color: #ccc
+  },
+  display_none: {
+    display: none
+  },
+  icon_stackoverflow: {
+    height: 30px,
+    position: relative,
+    top: 5px
+  },
+  se_white: {
+    color: white,
+    fontSize: 18px,
+    textShadow: 0 0 1px
+  },
+  se_blue: {
+    color: #2f73eb,
+    marginLeft: -4px,
+    fontWeight: bold,
+    fontSize: 18px,
+    textShadow: 0 0 1px
+  },
+  se_list: {
+    listStyleType: none,
+    margin: 0,
+    padding: 0,
+    minHeight: 150px
+  },
+  default_template: {
+    lineHeight: 130px,
+    textAlign: center,
+    marginLeft: -40px
+  },
+  category_area: {
+    marginBottom: 3rem
+  },
+  category_area__default_template: {
+    margin: 0,
+    background: #eee
+  },
+  se_list_li: {
+    padding: 10px,
+    overflow: auto,
+    "position": relative
+  },
+  se_list_li_nth_child_even: {
+    backgroundColor: #eee,
+    borderTop: 1px solid #bbb,
+    borderBottom: 1px solid #ccc
+  },
+  se_list_li_nth_child_odd: {
+    backgroundColor: white,
+    borderBottom: 1px solid #ddd
+  },
+  lower_row_img: {
+    float: left,
+    marginRight: 0.5rem
+  },
+  user_notification_list_li: {
+    overflow: auto
+  },
+  avatar_container: {
+    height: 40px,
+    width: 40px
+  },
+  avatar_container_img: {
+    height: 100%,
+    width: 100%
+  },
+  link: {
+    color: rgb(0, 120, 231),
+    textDecoration: none
+  },
+  username: {
+    color: rgb(0, 0, 238)
+  },
+  np_page: {
+    width: 700px,
+    margin: 0px auto,
+    paddingTop: 1rem
+  },
+  notification_page_header: {
+    margin: 20px 0px
+  },
+  pure_button_error: {
+    background: rgba(250, 20, 20, 0.8),
+    color: white,
+    borderRadius: 4px,
+    textShadow: 0 1px 1px rgba(0, 0, 0, 0.2)
+  },
+  pure_button_normal: {
+    background: black,
+    color: white,
+    borderRadius: 4px,
+    textShadow: 0 1px 1px rgba(0, 0, 0, 0.2)
+  },
+  se_list_li_hover: {
+    backgroundColor: rgba(100,100,250,0.2)
+  },
+  se_list_li_se_selected: {
+    backgroundColor: rgba(47, 115, 235, 0.5)
+  }
