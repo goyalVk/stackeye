@@ -1,126 +1,108 @@
-.np-page .se-category {
-  margin-bottom: 1rem;
-  background: none;
-}
-
-.se-category li {
-  background: #eee;
-}
-
-.se-category li a {
-  padding: 5px 10px;
-}
-
-.tabContainer a > span {
-  background-color: #ccc;
-  padding: 2px 5px;
-  margin-left: 5px;
-  border-radius: 5px;
-  color: black;
-}
-
-.se-category li.pure-menu-selected {
-  background: #777;
-  border-radius: 3px;
-}
-
-.se-category li a:hover,
-.se-category li a:focus {
-  background-color: #777;
-  color: white;
-}
-
-.se-category li.pure-menu-selected a {
-  color: #ffffff;
-}
-
-.content-container {
-  width: 615px;
-}
-
-.tag {
-  color: #3E6D8E;
-  background-color: #E0EAF1;
-  border-bottom: 1px solid #b3cee1;
-  border-right: 1px solid #b3cee1;
-  padding: 1px 4px;
-  margin: 2px 5px 2px 0;
-  white-space: nowrap;
-  display: inline-block;
-}
-
-.se-list {
-  position: absolute;
-  bottom: 3.5rem;
-  top: 6.5rem;
-  overflow: auto;
-  width: 700px;
-  background: #eee;
-  outline: 1px solid #ccc;
-}
-
-.se-list li {
-  cursor: pointer;
-}
-
-.user-list li {
-  padding: 2px;
-}
-
-.tag-container {
-  display: inline-block;
-  padding-left: 10px;
-  padding-top: 6px;
-  max-width: 460px;
-}
-
-.deleter {
-  position: absolute;
-  bottom: 1rem;
-  margin-left: 600px;
-  width: 6rem;
-}
-
-.report-option {
-  position: absolute;
-  right: 8px;
-  top: 8px;
-}
-
-.report-option a {
-  color: white;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-.settings-grid {
-  padding: 10px;
-}
-
-.setting-item {
-  padding: 10px 15px;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  background: rgba(253,253,253,0.8);
-  margin: 5px;
-}
-
-.setting-item .setting-name {
-  text-transform: uppercase;
-}
-
-.setting-item .setting-description {
-  font-size: 90%;
-  margin: 0.4em 0;
-}
-
-.setting-button {
-  color: #fff;
-  background: #1b98f8;
-  margin: 0.5em 0;
-}
-
-.ribbon {
-  position: absolute;
-}
+np_page__se_category: {
+    marginBottom: 1rem,
+    background: none
+  },
+  se_category_li: {
+    background: #eee
+  },
+  se_category_li_a: {
+    padding: 5px 10px
+  },
+  tabContainer_a___span: {
+    backgroundColor: #ccc,
+    padding: 2px 5px,
+    marginLeft: 5px,
+    borderRadius: 5px,
+    color: black
+  },
+  se_category_li_pure_menu_selected: {
+    background: #777,
+    borderRadius: 3px
+  },
+  se_category_li_a_hover: {
+    backgroundColor: #777,
+    color: white
+  },
+  se_category_li_a_focus: {
+    backgroundColor: #777,
+    color: white
+  },
+  se_category_li_pure_menu_selected_a: {
+    color: #ffffff
+  },
+  content_container: {
+    width: 615px
+  },
+  tag: {
+    color: #3E6D8E,
+    backgroundColor: #E0EAF1,
+    borderBottom: 1px solid #b3cee1,
+    borderRight: 1px solid #b3cee1,
+    padding: 1px 4px,
+    margin: 2px 5px 2px 0,
+    whiteSpace: nowrap,
+    display: inline-block
+  },
+  se_list: {
+    position: absolute,
+    bottom: 3.5rem,
+    top: 6.5rem,
+    overflow: auto,
+    width: 700px,
+    background: #eee,
+    outline: 1px solid #ccc
+  },
+  se_list_li: {
+    cursor: pointer
+  },
+  user_list_li: {
+    padding: 2px
+  },
+  tag_container: {
+    display: inline-block,
+    paddingLeft: 10px,
+    paddingTop: 6px,
+    maxWidth: 460px
+  },
+  deleter: {
+    position: absolute,
+    bottom: 1rem,
+    marginLeft: 600px,
+    width: 6rem
+  },
+  report_option: {
+    position: absolute,
+    right: 8px,
+    top: 8px
+  },
+  report_option_a: {
+    color: white,
+    textShadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+    borderRadius: 4px,
+    textDecoration: none
+  },
+  settings_grid: {
+    padding: 10px
+  },
+  setting_item: {
+    padding: 10px 15px,
+    border: 1px solid #ddd,
+    boxSizing: border-box,
+    background: rgba(253,253,253,0.8),
+    margin: 5px
+  },
+  setting_item__setting_name: {
+    textTransform: uppercase
+  },
+  setting_item__setting_description: {
+    fontSize: 90%,
+    margin: 0.4em 0
+  },
+  setting_button: {
+    color: #fff,
+    background: #1b98f8,
+    margin: 0.5em 0
+  },
+  ribbon: {
+    position: absolute
+  }
